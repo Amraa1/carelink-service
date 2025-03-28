@@ -3,7 +3,7 @@ import React from "react";
 
 export default function CtaService() {
     return (
-        <section className="py-10 flex flex-col gap-10 items-center">
+        <section className="py-10 flex flex-col gap-10 items-center bg-[#6c84a4]">
             {/* Call to Action section */}
             <div className="flex flex-col items-center text-center">
                 <h1 className="text-4xl font-bold mb-5">

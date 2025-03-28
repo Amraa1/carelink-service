@@ -3,7 +3,7 @@ import React from "react";
 
 export default function MeetDoctors() {
     return (
-        <section className="py-10">
+        <section className="py-10 px-5 text-white bg-[#012d62]">
             <h1 className="text-4xl font-bold mb-5">Meet Our Doctors</h1>
             <div>
                 <div className="flex flex-row items-center gap-6">
