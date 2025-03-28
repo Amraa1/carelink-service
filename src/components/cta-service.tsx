@@ -3,7 +3,10 @@ import React from "react";
 
 export default function CtaService() {
     return (
-        <section className="py-10 flex flex-col gap-10 items-center bg-[#6c84a4]">
+        <section
+            id="cta"
+            className="py-10 flex flex-col gap-10 items-center text-blue-950 bg-[#6c84a4]"
+        >
             {/* Call to Action section */}
             <div className="flex flex-col items-center text-center">
                 <h1 className="text-4xl font-bold mb-5">
@@ -18,7 +21,7 @@ export default function CtaService() {
                     BOOK AN APPOINTMENT
                 </button>
             </div>
-            <div className="grid grid-cols-2 gap-5 max-w-4xl">
+            <div id="service" className="grid grid-cols-2 gap-5 max-w-4xl">
                 <div className="text-center flex flex-col items-center">
                     <Image
                         src="/dental-implants.png"
@@ -26,9 +29,9 @@ export default function CtaService() {
                         width={500}
                         height={500}
                         layout="responsive"
-                        className=""
+                        className="p-3 mb-5"
                     />
-                    <h3 className="text-xl">Dental implants</h3>
+                    <h3 className="text-xl font-bold mb-2">Dental implants</h3>
                     <ul>
                         <li>Titanium single implant</li>
                     </ul>
@@ -40,9 +43,11 @@ export default function CtaService() {
                         width={500}
                         height={500}
                         layout="responsive"
-                        className=""
+                        className="p-3 mb-5"
                     />
-                    <h3 className="text-xl">Cosmetic dentistry</h3>
+                    <h3 className="text-xl font-bold mb-2">
+                        Cosmetic dentistry
+                    </h3>
                     <ul>
                         <li>Tooth Whitening</li>
                         <li>Dental Veneers</li>
